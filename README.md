@@ -28,10 +28,3 @@ A simple web application to manage employee details such as name, email, departm
   - Department
 - Search employees by name or email
 
-
-
-## 🛠 How to Run the Project Locally
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repository-link>
