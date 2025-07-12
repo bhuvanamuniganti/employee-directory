@@ -1,0 +1,206 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  margin: 0 0 20px;
+  font-size: 2rem;
+  color: #444;
+}
+
+/* Add button styling */
+.add-btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.add-btn button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.add-btn button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styling */
+form {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+form button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #218838;
+}
+.error {
+  display: block;
+  color: #e74c3c;
+  font-size: 0.875rem;
+  margin-top: -6px;
+}
+
+/* Cards container */
+.employee-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Each card styling */
+.employee-card {
+  background: #fff;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  padding: 16px;
+  position: relative;
+}
+
+/* Card text styling */
+.employee-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+/* Buttons inside cards */
+.employee-card button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.employee-card a button,
+.employee-card form button {
+  background-color: #007bff;
+  color: #fff;
+}
+.employee-card a button:hover,
+.employee-card form button:hover {
+  background-color: #0056b3;
+}
+.employee-card form button {
+  background-color: #dc3545;
+}
+.employee-card form button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .employee-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-group a,
+.button-group form {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.button-group a:last-child,
+.button-group form:last-child {
+  margin-right: 0;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  flex: 1;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.edit-btn {
+  background-color: #007bff;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+.apply-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
